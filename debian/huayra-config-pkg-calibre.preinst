@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -h /usr/share/applications/calibre.desktop ]
+then
+	rm -f /usr/share/applications/calibre.desktop
+fi
+
+exit 0

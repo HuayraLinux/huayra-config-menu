@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+
+DEB_DISPLACE_EXTENSION = .huayra
+
+DEB_DIVERT_FILES_huayra-config-pkg-calibre += /usr/share/applications/calibre-gui.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-calibre += /usr/share/applications/calibre-gui.desktop.huayra
+
+DEB_DIVERT_FILES_huayra-config-pkg-calibre += /usr/share/applications/ebook-viewer.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-calibre += /usr/share/applications/ebook-viewer.desktop.huayra
+
+DEB_DIVERT_FILES_huayra-config-pkg-calibre += /usr/share/applications/lrfviewer.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-calibre += /usr/share/applications/lrfviewer.desktop.huayra
+
+DEB_DIVERT_FILES_huayra-config-pkg-mate-terminal += /usr/share/applications/mate-terminal.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-mate-terminal += /usr/share/applications/mate-terminal.desktop.huayra
+
+DEB_DIVERT_FILES_huayra-config-pkg-gimp += /usr/share/applications/gimp.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-gimp += /usr/share/applications/gimp.desktop.huayra
+
+DEB_DIVERT_FILES_huayra-config-pkg-ipython += /usr/share/applications/ipython.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-ipython += /usr/share/applications/ipython.desktop.huayra
+
+DEB_DIVERT_FILES_huayra-config-pkg-imagemagick += /usr/share/applications/display-im6.desktop.huayra 
+DEB_UNDIVERT_FILES_huayra-config-pkg-imagemagick += /usr/share/applications/display-im6.desktop.huayra 
+
+DEB_DIVERT_FILES_huayra-config-pkg-imagemagick += /usr/share/applications/display-im6.q16.desktop.huayra 
+DEB_UNDIVERT_FILES_huayra-config-pkg-imagemagick += /usr/share/applications/display-im6.q16.desktop.huayra 
+
+DEB_DIVERT_FILES_huayra-config-pkg-dvb-apps += /usr/share/applications/alevt.desktop.huayra 
+DEB_UNDIVERT_FILES_huayra-config-pkg-dvb-apps += /usr/share/applications/alevt.desktop.huayra 
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/config-package.mk

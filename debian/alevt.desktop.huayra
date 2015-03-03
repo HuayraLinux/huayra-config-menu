@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=alevt
+Comment=Teletext Browser
+NoDisplay=true
+Exec=alevt
+Icon=alevt
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;AudioVideo;Video;

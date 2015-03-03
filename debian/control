@@ -1,0 +1,74 @@
+Source: huayra-config-menu
+Section: text
+Priority: extra
+Build-Depends:  cdbs, debhelper (>= 9.20120909),
+                config-package-dev (>= 5.1.1~)
+Maintainer: Mauro <mauro@krutt.org>
+Standards-Version: 3.9.5
+
+Package: huayra-config-menu
+Architecture: all
+Depends: ${misc:Depends},
+         huayra-config-pkg-calibre,
+         huayra-config-pkg-mate-terminal,
+         huayra-config-pkg-gimp,
+         huayra-config-pkg-ipython,
+         huayra-config-pkg-imagemagick,
+         huayra-config-pkg-dvb-apps
+Description: Archivos de configuracion de Menu para Huayra
+ Este paquete simplemente modifica archivos de configuracion
+ del paquete en Debian para la distro Huayra.
+
+Package: huayra-config-pkg-calibre
+Architecture: all
+Depends: ${misc:Depends}, calibre
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Archivos de configuracion de Calibre para Huayra
+ Este paquete simplemente modifica archivos de configuracion
+ del paquete en Debian de Calibre para la distro Huayra.
+
+Package: huayra-config-pkg-mate-terminal
+Architecture: all
+Depends: ${misc:Depends}, mate-terminal
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Archivos de configuracion de Mate Terminal para Huayra
+ Este paquete simplemente modifica archivos de configuracion
+ del paquete en Debian de Mate Terminal para la distro Huayra.
+
+Package: huayra-config-pkg-gimp
+Architecture: all
+Depends: ${misc:Depends}, gimp
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Archivos de configuracion de GIMP para Huayra
+ Este paquete simplemente modifica archivos de configuracion
+ del paquete en Debian de GIMP para la distro Huayra.
+
+Package: huayra-config-pkg-ipython
+Architecture: all
+Depends: ${misc:Depends}, ipython
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Archivos de configuracion de IPython para Huayra
+ Este paquete simplemente modifica archivos de configuracion
+ del paquete en Debian de IPython para la distro Huayra.
+
+Package: huayra-config-pkg-imagemagick
+Architecture: all
+Depends: ${misc:Depends}, imagemagick
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Archivos de configuracion de ImageMagick para Huayra
+ Este paquete simplemente modifica archivos de configuracion
+ del paquete en Debian de ImageMagick para la distro Huayra.
+
+Package: huayra-config-pkg-dvb-apps
+Architecture: all
+Depends: ${misc:Depends}, dvb-apps
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Archivos de configuracion de dvb-apps para Huayra
+ Este paquete simplemente modifica archivos de configuracion
+ del paquete en Debian de dvb-apps para la distro Huayra.

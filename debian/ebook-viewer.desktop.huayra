@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=E-Book Viewer
+Name[es]=Visor de libros electrónicos
+Comment=E-Book Viewer
+Comment[es]=Visor de libros electrónicos
+TryExec=ebook-viewer
+Exec=ebook-viewer %F
+Icon=calibre-gui
+MimeType=application/x-mobipocket-ebook;application/epub+zip;
+Categories=Office;Graphics;Viewer;

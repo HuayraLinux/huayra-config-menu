@@ -1,0 +1,49 @@
+huayra-config-menu (2.5) torbellino; urgency=medium
+
+  * Agrega dvb-apps para ocultar el icono de alevt.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 03 Mar 2015 12:57:53 -0300
+
+huayra-config-menu (2.4) torbellino; urgency=medium
+
+  * Arregla icono lrfviewer.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 03 Mar 2015 12:27:09 -0300
+
+huayra-config-menu (2.3) torbellino; urgency=medium
+
+  * Arregla entradas de menu de calibre y ebook-viewer.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 03 Mar 2015 10:50:43 -0300
+
+huayra-config-menu (2.2) torbellino; urgency=medium
+
+  * Agrega ImageMagick para ocultarlo del menu
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 03 Mar 2015 09:56:21 -0300
+
+huayra-config-menu (2.1) unstable; urgency=medium
+
+  * Typo en el .desktop de ipython
+
+ -- mauro <mauro@krutt.org>  Fri, 11 Apr 2014 13:46:17 -0300
+
+huayra-config-menu (2.0) unstable; urgency=medium
+
+  * Bump version, a la par del release.
+  * Agrego menu para IPython.
+
+ -- mauro <mauro@krutt.org>  Fri, 11 Apr 2014 13:04:56 -0300
+
+huayra-config-menu (0.2) unstable; urgency=medium
+
+  * Update de Calibre y GIMP.
+
+ -- Mauro <mauro@krutt.org>  Tue, 08 Apr 2014 11:30:49 -0300
+
+huayra-config-menu (0.1) unstable; urgency=medium
+
+  * Config inicial
+  * Modifica Calibre, GIMP y Mate Terminal.
+
+ -- Mauro <mauro@krutt.org>  Tue, 01 Apr 2014 10:20:49 -0300

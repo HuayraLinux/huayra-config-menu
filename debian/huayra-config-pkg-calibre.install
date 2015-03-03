@@ -1,0 +1,3 @@
+debian/calibre-gui.desktop.huayra /usr/share/applications/
+debian/ebook-viewer.desktop.huayra /usr/share/applications/
+debian/lrfviewer.desktop.huayra /usr/share/applications/
