@@ -32,5 +32,8 @@ DEB_UNDIVERT_FILES_huayra-config-pkg-dvb-apps += /usr/share/applications/alevt.d
 DEB_DIVERT_FILES_huayra-config-pkg-galculator += /usr/share/applications/galculator.desktop.huayra
 DEB_UNDIVERT_FILES_huayra-config-pkg-galculator += /usr/share/applications/galculator.desktop.huayra
 
+DEB_DIVERT_FILES_huayra-config-pkg-mate-utils += /usr/share/applications/mate-dictionary.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-mate-utils += /usr/share/applications/mate-dictionary.desktop.huayra
+
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/rules/config-package.mk

@@ -15,7 +15,8 @@ Depends: ${misc:Depends},
          huayra-config-pkg-ipython,
          huayra-config-pkg-imagemagick,
          huayra-config-pkg-dvb-apps,
-         huayra-config-pkg-galculator
+         huayra-config-pkg-galculator,
+         huayra-config-pkg-mate-utils
 Description: Archivos de configuracion de Menu para Huayra
  Este paquete simplemente modifica archivos de configuracion
  del paquete en Debian para la distro Huayra.
@@ -82,3 +83,13 @@ Conflicts: ${diverted-files}
 Description: Archivos de configuracion de Galculator para Huayra
  Este paquete simplemente modifica archivos de configuracion
  del paquete en Debian de Galculator para la distro Huayra.
+
+Package: huayra-config-pkg-mate-utils
+Architecture: all
+Depends: ${misc:Depends}, mate-utils
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Archivos de configuracion de mate-utils(mate-dictionary) para Huayra
+ Este paquete simplemente modifica archivos de configuracion
+ del paquete en Debian de mate-utils para la distro Huayra.
+
