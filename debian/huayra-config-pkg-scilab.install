@@ -1,0 +1,3 @@
+debian/scilab-adv-cli.desktop.huayra /usr/share/applications/
+debian/scilab-cli.desktop.huayra /usr/share/applications/
+debian/scilab.desktop.huayra /usr/share/applications/

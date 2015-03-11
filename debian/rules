@@ -35,5 +35,14 @@ DEB_UNDIVERT_FILES_huayra-config-pkg-galculator += /usr/share/applications/galcu
 DEB_DIVERT_FILES_huayra-config-pkg-mate-utils += /usr/share/applications/mate-dictionary.desktop.huayra
 DEB_UNDIVERT_FILES_huayra-config-pkg-mate-utils += /usr/share/applications/mate-dictionary.desktop.huayra
 
+DEB_DIVERT_FILES_huayra-config-pkg-scilab += /usr/share/applications/scilab-adv-cli.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-scilab += /usr/share/applications/scilab-adv-cli.desktop.huayra
+
+DEB_DIVERT_FILES_huayra-config-pkg-scilab += /usr/share/applications/scilab-cli.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-scilab += /usr/share/applications/scilab-cli.desktop.huayra
+
+DEB_DIVERT_FILES_huayra-config-pkg-scilab += /usr/share/applications/scilab.desktop.huayra
+DEB_UNDIVERT_FILES_huayra-config-pkg-scilab += /usr/share/applications/scilab.desktop.huayra
+
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/rules/config-package.mk

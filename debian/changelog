@@ -1,3 +1,15 @@
+huayra-config-menu (2.9) torbellino; urgency=medium
+
+  * Arregla error tipeo en undivert de scilab
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 03 Mar 2015 12:57:53 -0300
+
+huayra-config-menu (2.8) torbellino; urgency=medium
+
+  * Mueve scilab a la categoria Educacion
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 03 Mar 2015 12:57:53 -0300
+
 huayra-config-menu (2.7) unstable; urgency=medium
 
   * Agregando mate-dictionary
